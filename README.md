@@ -12,7 +12,11 @@ Once created don't forget to update the:
 - [Script name](scaffolded-script.kt) both the filename and the occurrencies inside the script.
 - The script name inside the Github Actions [workflow file](.github/workflows/run-script.yaml).
 
-The templated script is just printing the list of files from a input directory. You can use this as a starting point to create your script around it.
+The templated script is just printing the list of files from a input directory. You can use this as a starting point to create your script around it:
+
+<p align="center">
+    <img src="https://imgur.com/zi5CjIs.png" width="60%">
+</p>
 
 ## Features
 
@@ -32,6 +36,12 @@ You can use the `--help` flag to get a nice report for the available flags:
 
 <p align="center">
     <img src="https://imgur.com/KS6KtoV.png" width="60%">
+</p>
+
+If you want to see how a failure looks like, invoke with `--fail` or `-f`:
+
+<p align="center">
+    <img src="https://imgur.com/BYn1OxI.png" width="60%">
 </p>
 
 ## Logging
