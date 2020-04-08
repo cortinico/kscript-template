@@ -15,7 +15,7 @@ Once created don't forget to update the:
 The templated script is just printing the list of files from a input directory. You can use this as a starting point to create your script around it:
 
 <p align="center">
-    <img src="https://imgur.com/zi5CjIs.png" width="60%">
+    <img src="https://imgur.com/zi5CjIs.png" width="80%">
 </p>
 
 ## Features
@@ -35,13 +35,13 @@ This project is using [picocli](https://github.com/remkop/picocli/) to easily pa
 You can use the `--help` flag to get a nice report for the available flags:
 
 <p align="center">
-    <img src="https://imgur.com/KS6KtoV.png" width="60%">
+    <img src="https://imgur.com/KS6KtoV.png" width="80%">
 </p>
 
 If you want to see how a failure looks like, invoke with `--fail` or `-f`:
 
 <p align="center">
-    <img src="https://imgur.com/BYn1OxI.png" width="60%">
+    <img src="https://imgur.com/BYn1OxI.png" width="80%">
 </p>
 
 ## Logging
