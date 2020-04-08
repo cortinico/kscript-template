@@ -1,6 +1,6 @@
 # kscript-template 📜
 
-[![Use this template](https://img.shields.io/badge/from-kscript--template-brightgreen?logo=dropbox)](https://github.com/cortinico/kscript-template/generate)  ![License](https://img.shields.io/github/license/cortinico/kscript-template.svg) ![Language](https://img.shields.io/github/languages/top/cortinico/kotlin-android-template?color=blue&logo=kotlin)
+[![Use this template](https://img.shields.io/badge/from-kscript--template-brightgreen?logo=dropbox)](https://github.com/cortinico/kscript-template/generate) ![Run Script](https://github.com/cortinico/kscript-template/workflows/Run%20Script/badge.svg) ![License](https://img.shields.io/github/license/cortinico/kscript-template.svg) ![Language](https://img.shields.io/github/languages/top/cortinico/kotlin-android-template?color=blue&logo=kotlin)
 
 A simple Github template that lets you create a [**kscript**](https://github.com/holgerbrandl/kscript) repository ready to run and share in a **few seconds**. 
 
@@ -9,7 +9,7 @@ A simple Github template that lets you create a [**kscript**](https://github.com
 Just click on [![Use this template](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/cortinico/kscript-template/generate) button to create a new repo starting from this template.
 
 Once created don't forget to update the:
-- [Script name](scaffolded-script.kt) both the filename and the occurrencies inside the script.
+- [Script name](scaffolded-script.kts) both the filename and the occurrencies inside the script.
 - The script name inside the Github Actions [workflow file](.github/workflows/run-script.yaml).
 
 The templated script is just printing the list of files from a input directory. You can use this as a starting point to create your script around it:
