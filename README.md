@@ -60,7 +60,7 @@ Calling `error` will also stop the script.
 
 This template is using [**GitHub Actions**](https://github.com/cortinico/kscript-template/actions) as CI. You don't need to setup any external service and you should have a running CI once you start using this template.
 
-The workflow [Run Script] will take care of running the script and publishing the bundled version of it as an artifact (users can easily download it).
+The workflow [Run Script](https://github.com/cortinico/kscript-template/actions?query=workflow%3A%22Run+Script%22) will take care of running the script and publishing the bundled version of it as an artifact (users can easily download it).
 
 ## Contributing
 
