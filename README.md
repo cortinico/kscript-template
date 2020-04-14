@@ -4,7 +4,7 @@
 
 A simple Github template that lets you create a [**kscript**](https://github.com/holgerbrandl/kscript) repository ready to run and share in a **few seconds**. 
 
-## How to use
+## How to use  👣
 
 Just click on [![Use this template](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/cortinico/kscript-template/generate) button to create a new repo starting from this template.
 
@@ -18,7 +18,7 @@ The templated script is just printing the list of files from a input directory. 
     <img src="https://imgur.com/zi5CjIs.png" width="80%">
 </p>
 
-## Features
+## Features 🎨
 
 - Cli Args parsing with [picocli](https://github.com/remkop/picocli/).
 - Logging functions `info`, `warn`, `error`, `success` with emoji support ✅⚠️❌.
@@ -28,7 +28,7 @@ The templated script is just printing the list of files from a input directory. 
 - Issues Template (bug report + feature request).
 - Pull Request Template.
 
-## CLI Args
+## CLI Args ⌨️
 
 This project is using [picocli](https://github.com/remkop/picocli/) to easily parse the CLI Options and Parameters. You can find more example on how to set up the flags on the [official documentation page](https://picocli.info/#_introduction).
 
@@ -44,7 +44,7 @@ If you want to see how a failure looks like, invoke with `--fail` or `-f`:
     <img src="https://imgur.com/BYn1OxI.png" width="80%">
 </p>
 
-## Logging
+## Logging 📣
 
 A couple of util functions are available for logging:
 * ℹ️ `info` to report a info message. You can optionally provide an emoji to enrich the log.
@@ -56,12 +56,12 @@ A couple of util functions are available for logging:
 
 Calling `error` will also stop the script.
 
-## CI
+## CI ⚙️
 
 This template is using [**GitHub Actions**](https://github.com/cortinico/kscript-template/actions) as CI. You don't need to setup any external service and you should have a running CI once you start using this template.
 
 The workflow [Run Script](https://github.com/cortinico/kscript-template/actions?query=workflow%3A%22Run+Script%22) will take care of running the script and publishing the bundled version of it as an artifact (users can easily download it).
 
-## Contributing
+## Contributing 🤝
 
 Feel free to open a issue or submit a pull request for any bugs/improvements.
