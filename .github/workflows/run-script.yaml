@@ -10,6 +10,9 @@ on:
 
 jobs:
   gradle:
+    defaults:
+      run:
+        shell: bash -i {0}
     runs-on: ubuntu-latest
     if: ${{ !contains(github.event.head_commit.message, 'ci skip') }}
     steps:
@@ -19,19 +22,14 @@ jobs:
           submodules: true
 
       - name: Install sdkman
-        shell: bash -i {0}
         run: curl -s "https://get.sdkman.io" | bash
       - name: Install kotlin
-        shell: bash -i {0}
         run: sdk install kotlin
       - name: Install kscript
-        shell: bash -i {0}
         run: sdk install kscript
       - name: Run script
-        shell: bash -i {0}
         run: kscript scaffolded-script.kts
       - name: Bundle script
-        shell: bash -i {0}
         run: kscript --package scaffolded-script.kts
 
       - uses: actions/upload-artifact@v1
