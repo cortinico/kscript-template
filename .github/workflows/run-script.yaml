@@ -10,7 +10,7 @@ on:
 
 jobs:
   gradle:
-    default:
+    defaults:
       run:
         shell: bash -i {0}
     runs-on: ubuntu-latest
