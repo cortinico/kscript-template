@@ -1,5 +1,5 @@
 #!/usr/bin/env kscript
-@file:DependsOn("info.picocli:picocli:4.2.0")
+@file:DependsOn("info.picocli:picocli:4.3.2")
 
 import picocli.CommandLine
 import picocli.CommandLine.Command
